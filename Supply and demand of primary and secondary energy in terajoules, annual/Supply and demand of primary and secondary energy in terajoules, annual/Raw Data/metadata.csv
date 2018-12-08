@@ -1,0 +1,174 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Supply and demand of primary and secondary energy in terajoules, annual",25100029,128-0016,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002901",1;2;3;31,"CURRENT - a cube available to the public and that is current",Annual,1995-01-01,2016-01-01,3
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"Fuel type",,
+3,"Supply and demand characteristics",,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,11124,1,,,,
+1,"Atlantic provinces",1,2,1,,,
+1,"Newfoundland and Labrador",10,3,2,,,
+1,"Prince Edward Island",11,4,2,,,
+1,"Nova Scotia",12,5,2,,,
+1,"New Brunswick",13,6,2,,,
+1,Quebec,24,7,1,,,
+1,Ontario,35,8,1,,,
+1,Manitoba,46,9,1,,,
+1,Saskatchewan,47,10,1,,,
+1,Alberta,48,11,1,,,
+1,"British Columbia",59,12,1,,,
+1,"Yukon, Northwest Territories and Nunavut",6,13,1,,,
+1,Yukon,60,14,13,,,
+1,"Northwest Territories",61,15,13,,,
+1,Nunavut,62,16,13,,,
+2,"Total primary and secondary energy",,1,,,,
+2,"Primary energy",,2,1,,,
+2,"Crude oil",,4,2,,,
+2,"Natural gas",,5,2,,,
+2,"Gas plant natural gas liquids (NGL's)",,6,2,,,
+2,"Primary electricity, hydro and nuclear",,7,2,,33,
+2,Steam,,8,2,,,
+2,"Secondary energy",,9,1,,,
+2,Coke,,10,9,,,
+2,"Coke oven gas",,11,9,,,
+2,"Secondary electricity, thermal",,13,9,,,
+2,"Total refined petroleum products",,14,9,,,
+2,"Refinery liquefied petroleum gases (LPG's)",,15,14,,,
+2,"Still gas",,16,14,,,
+2,"Motor gasoline",,17,14,,34,
+2,"Kerosene and stove oil",,18,14,,,
+2,"Diesel fuel oil",,19,14,,35,
+2,"Light fuel oil",,20,14,,,
+2,"Heavy fuel oil",,21,14,,,
+2,"Petroleum coke",,22,14,,,
+2,"Aviation gasoline",,23,14,,,
+2,"Aviation turbo fuel",,24,14,,,
+2,"Non-energy products",,25,14,,,
+2,"Total coal",,29,2,,32,
+2,"Canadian bituminous",,30,29,,,
+2,"Sub bituminous",,31,29,,,
+2,Lignite,,32,29,,,
+2,Anthracite,,33,29,,,
+2,"Imported bituminous",,34,29,,,
+3,Production,,1,,,,
+3,Exports,,2,,,,
+3,Imports,,3,,,,
+3,"Inter-regional transfers",,4,,,4,
+3,"Stock variation",,5,,,,
+3,"Inter-product transfers",,6,,,5,
+3,"Other adjustments",,7,,,6,
+3,Availability,,8,,,7,
+3,"Transformed to electricity by utilities",,10,,,,
+3,"Transformed to electricity by industry",,11,,,,
+3,"Transformed to coke and manufactured gases",,12,,,,
+3,"Transformed to refined petroleum products",,13,,,,
+3,"Transformed to steam generation",,14,,,,
+3,"Net supply",,15,,,8,
+3,"Producer consumption",,16,,,9,
+3,"Non-energy use",,17,,,10,
+3,"Energy use, final demand",,18,,,11,
+3,"Total mining and oil and gas extraction",,20,31,,12,
+3,"Pulp and paper manufacturing",,21,28,,13,
+3,"Iron and steel manufacturing",,22,28,,14,
+3,"Aluminum and non-ferrous metal manufacturing",,23,28,,15,
+3,"Cement manufacturing",,24,28,,16,
+3,"Refined petroleum products manufacturing",,25,28,,17,
+3,"Chemicals and fertilizers manufacturing",,26,28,,18,
+3,"All other manufacturing",,27,28,,19,
+3,"Total manufacturing",,28,31,,,
+3,"Forestry and logging and support activities for forestry",,29,31,,20,
+3,Construction,,30,31,,21,
+3,"Total industrial",,31,18,,,
+3,Railways,,32,42,,,
+3,"Total airlines",,33,42,,,
+3,"Canadian airlines",,34,33,,23,
+3,"Foreign airlines",,35,33,,,
+3,"Total marine",,36,42,,,
+3,"Domestic marine",,37,36,,24,
+3,"Foreign marine",,38,36,,,
+3,Pipelines,,39,42,,25,
+3,"Road transport and urban transit",,40,42,,26,
+3,"Retail pump sales",,41,42,,,
+3,"Total transportation",,42,18,,22,
+3,Agriculture,,43,18,,27,
+3,Residential,,44,18,,28,
+3,"Public administration",,45,18,,29,
+3,"Commercial and other institutional",,46,18,,30,
+3,"Statistical difference",,47,18,,,
+3,"Stock change, utilities and industry",,48,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+2003,"Monthly Coke Supply and Disposition Survey"
+2147,"Monthly Coal Supply and Disposition Survey"
+2148,"Monthly Oil and Other Liquid Petroleum Products Pipeline Survey"
+2149,"Monthly Natural Gas Transmission Survey"
+2150,"Monthly Refined Petroleum Products"
+2151,"Monthly Electricity Supply and Disposition Survey"
+2166,"Quarterly Industrial Consumption of Energy Survey"
+2167,"Annual End-Use of Natural Gas Survey"
+2168,"Annual Survey on End-Use of Refined Petroleum Products"
+2191,"Monthly Oil Pipeline Statement"
+2194,"Annual Electricity Supply and Disposition Survey"
+2198,"Crude Oil and Natural Gas"
+
+"Subject Code","Subject Name"
+25,Energy
+
+"Note ID",Note
+1,"For quarterly data on reference years prior to 2002, please see CANSIM table 128-0002."
+2,"CANSIM tables 128-0009, 128-0010 and 128-0015 have been archived and replaced with CANSIM tables 128-0016, 128-0017 and 128-0018. Comparisons of the new datasets with earlier published datasets should be done with caution."
+3,"Values for production and availability for ""total primary and secondary"" are not shown as these would lead to double-counting of fuels that are both a primary energy form and used to produce a secondary energy form."
+4,"Shows the net inter-regional movement of product between regions."
+5,"Shows the transfer of similar products between different product forms; for example, still gas to natural gas, natural gas to produce hydrogen in petroleum refineries."
+6,"Includes cyclical billing variations, metering differences and losses in transportation. In the case of crude oil, includes sales to non-refineries."
+7,"The amount which was available for use. This includes the summation of production, imports, inter-regional transfers, inter-product transfers and other adjustments, less exports and stock variation."
+8,"The amount available after the amounts used in transformation processes are subtracted. Availability minus stock change, utilities and industry, transformed to electricity - by utilities, transformed to electricity - by industry, transformed to coke and manufactured gases, transformed to refined products and transformed to steam generation."
+9,"Producers' consumption as measured here is the consumption by the producing industry of its own produced fuel; for example, refined petroleum products consumed by the refined petroleum product industry, or natural gas used in the field, flared and waste, field uses, gathering uses, plant uses and metering adjustments. It does not include consumption of energy forms produced by other energy supply industries; for example, it would exclude the use of natural gas by the petroleum refining industry. In the case of electricity, it includes transmission losses, adjustments, unaccounted for amounts which are subject to variation because of cyclical billing, etcetera, but excludes generating station use output as measured at the generating station gate."
+10,"Amounts shown here are for amounts used for purposes other than fuel purposes. Includes products being used as petrochemical feedstock, anodes and/or cathodes, greases, lubricants, etcetera."
+11,"The summation of the usage in mining and oil and gas extraction, manufacturing, forestry, construction, transportation, agriculture, residential, public administration and commercial and other institutional."
+12,"Comprises of establishments primarily engaged in extracting naturally occurring minerals. This includes metal mines, non-metal mines, coal mines, crude petroleum and natural gas extraction industries, stone quarries gravel pits, exploration for minerals, development of mineral properties and contract drilling operations. Up to and including 2003: North American Industry Classification System (NAICS) code 21, excluding 213118, 213119 and part of 212326. After 2003: NAICS code 21."
+13,"Includes establishments primarily engaged in manufacturing pulp, paper and paper products. Up to and including 2003; North American Industry Classification System (NAICS) codes 322111, 322112, 322122 and parts of 321216, 322121 and 322130. After 2003; NAICS code 322."
+14,"Establishments primarily engaged in operating blast furnaces, casting mills, rolling mills or coke ovens operated in association with blast furnaces including steel foundries. Up to and including 2003; North American Industry Classification System (NAICS) codes 331110, 331221 and 331514. After 2003; NAICS codes 3311, 3312 and 33151."
+15,"Establishments primarily engaged in the production of aluminum and the refining of non-ferrous metals. Up to and including 2003; North American Industry Classification System (NAICS) codes 331313 and 331410. After 2003; NAICS codes 3313, 3314 and 33152."
+16,"Establishments primarily engaged in manufacturing cement. North American Industry Classification System (NAICS) code 327310. This classification does not include ready-mix concrete operations, which is included in other manufacturing."
+17,"Establishments primarily engaged in manufacturing of a group of refined petroleum products including fuels, blended oils and greases. North American Industry Classification System (NAICS) code 324110 and part of 324190."
+18,"Establishments primarily engaged in manufacturing industrial organic and inorganic chemicals and chemical fertilizers. Up to and including 2003: North American Industry Classification System (NAICS) codes 325110, 325120, 325130, 325181, 325189, 325313 and parts of 325190, 325210, 325410 and 325610. After 2003: NAICS code 325."
+19,"All other manufacturing industries (North American Industry Classification System (NAICS) codes 31, 32 and 33) not listed above. In some instances, this classification is used when no breakdown of the component manufacturing industries is provided."
+20,"Establishments primarily engaged in forestry and logging services. North American Industry Classification System (NAICS) codes 113 and 1153."
+21,"Establishments primarily engaged in the construction of buildings, highways, dams, etcetera, and those providing services to the construction industry. Special trade contractors primarily engaged in construction work is such specialties as plumbing, carpentry, painting, etcetera are included here. North American Industry Classification System (NAICS) code 23. Sales of asphalt (in non-energy refined petroleum products table) for paving purposes, regardless of the purchaser, are included here."
+22,"In this sector, only the use of fuel by the transportation industry for transportation purposes are included. Excluded are any fuels used for activities not directly involved in transportation (for example; train stations, warehouses, airports, etcetera). These amounts are included in commercial and other institutional. Fuels, which have been purchased for use by the agriculture, commercial and public institutions sectors for transportation purposes, are included in the sectors to which the fuel was sold."
+23,"Domestic airlines engaged primarily in the for-hire, common-carrier transportation of people and/or goods using aircraft, such as aeroplanes and helicopters. North American Industry Classification System (NAICS) code 481. Exclude foreign airlines. Also excluded are establishments engaged in providing specialty flying services such as aerial photography, surveying, air taxi, flying clubs, flying schools, recreation flying, etcetera, which are included in commercial and other institutional. Aerial crop spraying and/or crop dusting is considered to be agriculture."
+24,"Establishments primarily engaged in the water transportation of passengers and goods, using equipment designed for those purposes and provided by ships of Canadian registry (flag). Commercial fishing is also included. North American Industry Classification System (NAICS) codes 1141 and 483. Excluded are usage by National Defence and the Canadian Coast Guard, which are included in public administration."
+25,"Establishments primarily engaged in operating pipelines for the transport of natural gas, crude oil and other products. Also included are establishments engaged in the distribution of natural gas through a series of mains. North American Industry Classification System (NAICS) codes 486 and 2212."
+26,"Establishments primarily engaged in truck transport services, in the operation of urban, interurban and rural transit systems, school buses, charter and sightseeing buses, taxis and limousine services to airports and stations. North American Industry Classification System (NAICS) codes 484, 485, 4871, 4879, 4884, 4885 and 4889."
+27,"Establishments primarily engaged in agricultural, hunting and trapping activities. North American Industry Classification System (NAICS) codes 111, 112, 1142, 1151 and 1152. Excluded are any operations primarily engaged in food processing, farm machinery manufacture and repair."
+28,"Includes all personal residences including single family residences, apartments, apartment hotels, condominiums and farm homes."
+29,"Establishments of federal, provincial and municipal governments primarily engaged in activities associated with public administration. This includes such establishments such as the Federal Public Service, National Defence, Royal Canadian Mounted Police and provincial and local administrations. North American Industry Classification System (NAICS) code 91."
+30,"Final consumers other than those listed above. This includes service industries related to mining, transportation, as well as storage and warehousing, communications and utility (excluding electricity and natural gas), wholesale and retail trade, finance and insurance, real estate and business service, education, health and social services and other service industries."
+31,"Electricity disposition data for Commercial and other institutional were revised in January 2017 from 1995-2004 for Newfoundland and Labrador, Quebec, Ontario, and Alberta, and from 2005-2011 for all provinces."
+32,"Coal data for Ontario were revised for the years 2005-2013 in January 2017."
+33,"Electricity data for Ontario were revised in January 2017. Exports were revised for years 2010, 2011 and 2012. Producer consumption and disposition data for Pipelines, Agriculture, Residential, and Public administration were revised for years 2009-2014. Electricity disposition data for Urban transit were revised for years 2007-2014."
+34,"Nunavut Territory motor gasoline data (availability) were revised in January 2017 for years 2005-2014. Inter-regional transfers in the supplying provinces were adjusted to reflect motor gasoline reallocation to Nunavut. Final demand data were revised as a result of the changes in motor gasoline availability."
+35,"Nunavut Territory diesel fuel oil data (availability) were revised in January 2017 for years 2005-2014. Inter-regional transfers in the supplying provinces were adjusted to reflect diesel fuel reallocation to Nunavut. Final demand data were revised as a result of the changes in diesel availability."
+
+"Correction ID","Correction Date","Correction Note"
+
