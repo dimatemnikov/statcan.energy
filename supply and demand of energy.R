@@ -46,6 +46,7 @@ p
 unique(raw$Fuel.type)
 #take demand for Canada, select fuels, all years
 CA_fuel_demand <- raw %>% filter(GEO == "Canada",
+                                 Supply.and.demand.characteristics == "Energy use, final demand",
                                  Fuel.type %in% c("Total coal",
                                                   "Crude oil",
                                                   "Natural gas",
@@ -55,16 +56,17 @@ CA_fuel_demand <- raw %>% filter(GEO == "Canada",
                                                   "Non-energy products"))
 
 #Line plot of Canada total energy demand
-q <- ggplot(CA_fuel_demand, aes(REF_DATE, VALUE/1000000,colour=Fuel.type)) +
-  geom_line(aes(group = Fuel.type)) +
+q <- ggplot(CA_fuel_demand, aes(REF_DATE, VALUE/1000000,group=Fuel.type,color=Fuel.type)) +
+  geom_line() +
+  ggtitle("Canada Energy Demand by Fuel") +
   xlab("Year") +
   ylab("Millions of Terajoules") +
-  labs(caption = "Source: Statistics Canada.  Table  25-10-0029-01   Supply and demand of primary and secondary energy in terajoules, annual") +
+  labs(caption = "Source: Statistics Canada.  Table  25-10-0029-01   Supply and demand of primary and secondary energy in terajoules, annual",
+       col="Fuel") +
   expand_limits(x = 1995, y = 0) +
   theme_minimal() +
   theme(text = element_text(family = "KeepCalm-Medium"))+
-  theme(plot.caption=element_text(size=5)) 
-
+  theme(plot.caption=element_text(size=5),legend.text=element_text(size=7))
 
 q
 
